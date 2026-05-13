@@ -1,6 +1,6 @@
 {
-  "version": "1.0.4",
-  "lastUpdated": "2026-05-13T06:48:12Z",
+  "version": "1.0.5",
+  "lastUpdated": "2026-05-13T07:50:00Z",
   "prompts": [
     {
       "name": "🖌️ Vector neon",
@@ -23,7 +23,7 @@
       "description": "Tạo mockup Neon Sign chuyên nghiệp"
     },
     {
-      "name": "table runner",
+      "name": "Table runner",
       "text": "Use the uploaded product image as the only reference.\n\nRecreate the same table runner with very high fidelity. Preserve the original artwork, motifs, proportions, border details, color palette, fabric texture, stitching, quilting, embroidery, and overall handcrafted textile appearance exactly as shown in the reference image.\n\nRender the table runner in a perfect 90-degree top-down overhead view, laid completely flat, straight, and fully visible. The product must appear as a clean rectangular shape with straight parallel sides. Do not tilt, skew, warp, taper, bend, or distort the runner.\n\nPlace the runner centered on a plain pure white background. Show only the single product. No room, no table, no props, no mockup scene, no checkerboard transparency preview, and no extra objects.\n\nUse completely even, flat, uniform studio lighting across the entire image, like a clean catalog product capture. Keep the brightness absolutely consistent from top to bottom and from left to right. Eliminate all lighting gradients and all exposure falloff.\n\nDo not create any bright spots, hotspots, dark zones, corner darkening, top-to-bottom brightness shifts, left-to-right brightness shifts, vignette, ambient shading, directional lighting, or uneven illumination.\n\nThe product surface and border must be evenly lit everywhere. Do not add drop shadows, cast shadows, glow, bevel shading, edge shading, depth shading, embossed lighting effects, or any artificial highlight/shadow around the runner. The white background must also be pure and evenly white with no gray gradient.\n\nMaintain sharp high-resolution textile detail, clean natural edges, and a clean e-commerce catalog appearance.\n\nNegative instructions:\nNo perspective distortion, no trapezoid shape, no slant, no angle, no distant camera view, no folds, no curvature, no mockup styling, no dramatic lighting, no spotlight effect, no vignette, no drop shadow, no border shadow, no gradient background, no uneven exposure, no text, no watermark, and no logo.",
       "description": "Tạo hình ảnh table runner từ ảnh gốc"
     }
@@ -74,6 +74,25 @@
         "quickOptMediaType": "IMAGE",
         "quickOptModel": "Nano Banana 2",
         "quickOptOrientation": "SQUARE",
+        "quickOptQuantity": "4",
+        "quickOptResolution": "NONE",
+        "quickOptMinDelay": "10",
+        "quickOptMaxDelay": "15",
+        "quickOptStartIndex": "1",
+        "quickOptFilenameTemplate": "[Number]-[Prompt]",
+        "chkMultiPrompt": false,
+        "chkMagicPrompt": false,
+        "chkAutoRefPrompt": false,
+        "chkClonePerImage": true
+      }
+    },
+    {
+      "id": "builtin_table_runner",
+      "name": "🏃 Table runner",
+      "data": {
+        "quickOptMediaType": "IMAGE",
+        "quickOptModel": "Nano Banana 2",
+        "quickOptOrientation": "PORTRAIT",
         "quickOptQuantity": "4",
         "quickOptResolution": "NONE",
         "quickOptMinDelay": "10",
